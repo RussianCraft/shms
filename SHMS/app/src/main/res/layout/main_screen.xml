@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="197dp"
+        android:layout_marginTop="197dp"
+        android:background="@android:color/holo_green_dark">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/domain"
+            android:id="@+id/imageButton8"
+            android:contentDescription=""
+            android:background="@android:color/transparent"
+            android:layout_marginTop="3dp" />
+
+        <Button
+            android:text="Сайт"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="197dp"
+        android:background="@android:color/holo_orange_dark">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/notification"
+            android:id="@+id/imageButton7"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="3dp" />
+
+        <Button
+            android:text="Оповещения"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="180dp"
+        android:layout_height="180dp">
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/settings"
+            android:id="@+id/imageButton5"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:text="Настройки"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="197dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_width="180dp"
+        android:layout_height="180dp">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/layers"
+            android:id="@+id/imageButton6"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="3dp" />
+
+        <Button
+            android:text="Модули"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+</FrameLayout>
