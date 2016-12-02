@@ -1,0 +1,16 @@
+{
+  "name": "shms",
+  "description": "Smart House Managment System",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
