@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Система Управления Умным Домом</string>
+    <string name="settings_button">Настройки</string>
+    <string name="modules_button">Модули</string>
+    <string name="site_button">Сайт</string>
+    <string name="notifications_button">Оповещения</string>
+    <string name="setting_time">Время и дата</string>
+    <string name="settings_user">Данные пользователя</string>
+    <string name="settings_visual">Внешний вид</string>
+    <string name="settings_controller">Контроллер</string>
+    <string name="notification1">Температура и Влажность</string>
+    <string name="notification1_msg">Температура: 20 С \nВлажность: 30% \nВсе в порядке. \n12.11.2016 15:54</string>
+    <string name="notification2">Температура и Влажность</string>
+    <string name="notification2_msg">Температура: 12 С \nВлажность: 35% \nТемпература достаточно низкая, включено отопление. \n12.11.2016 12:54</string>
+    <string name="modules_list">Группы</string>
+    <string name="modules_media">Медиа</string>
+    <string name="modules_security">Безопасность</string>
+    <string name="modules_sensors">Датчики</string>
+</resources>

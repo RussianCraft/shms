@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="180dp"
-        android:layout_height="180dp"
-        android:layout_marginLeft="197dp"
-        android:layout_marginTop="197dp"
-        android:background="@android:color/holo_green_dark">
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="214dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="190dp"
+        android:layout_height="190dp">
 
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@mipmap/domain"
             android:id="@+id/imageButton8"
-            android:contentDescription=""
+            android:contentDescription="@string/site_button"
             android:background="@android:color/transparent"
-            android:layout_marginTop="3dp" />
+            android:paddingTop="9dp"
+            android:paddingBottom="6dp" />
 
         <Button
-            android:text="Сайт"
+            android:text="@string/site_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button4"
@@ -31,11 +31,11 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="180dp"
-        android:layout_height="180dp"
-        android:layout_marginLeft="7dp"
-        android:layout_marginTop="197dp"
-        android:background="@android:color/holo_orange_dark">
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="214dp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="190dp"
+        android:layout_height="190dp">
 
         <ImageButton
             android:layout_width="match_parent"
@@ -43,47 +43,27 @@
             app:srcCompat="@mipmap/notification"
             android:id="@+id/imageButton7"
             android:background="@android:color/transparent"
-            android:layout_marginTop="3dp" />
+            android:paddingTop="9dp"
+            android:paddingBottom="6dp"
+            android:contentDescription="@string/notifications_button"
+            android:onClick="onClickNotifications" />
 
         <Button
-            android:text="Оповещения"
+            android:text="@string/notifications_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button3"
-            android:background="@android:color/transparent" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_marginLeft="7dp"
-        android:layout_marginTop="10dp"
-        android:background="@android:color/darker_gray"
-        android:layout_width="180dp"
-        android:layout_height="180dp">
-
-        <ImageButton
-            android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/settings"
-            android:id="@+id/imageButton5"
             android:background="@android:color/transparent"
-            android:layout_marginTop="3dp"
-            android:layout_width="match_parent" />
-
-        <Button
-            android:text="Настройки"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button"
-            android:background="@android:color/transparent" />
+            android:onClick="onClickNotifications" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_marginLeft="197dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="16dp"
         android:background="@android:color/holo_blue_dark"
-        android:layout_width="180dp"
-        android:layout_height="180dp">
+        android:layout_width="190dp"
+        android:layout_height="190dp">
 
         <ImageButton
             android:layout_width="match_parent"
@@ -91,13 +71,46 @@
             app:srcCompat="@mipmap/layers"
             android:id="@+id/imageButton6"
             android:background="@android:color/transparent"
-            android:layout_marginTop="3dp" />
+            android:paddingTop="9dp"
+            android:paddingBottom="6dp"
+            android:contentDescription="@string/modules_button"
+            android:onClick="onClickModules" />
 
         <Button
-            android:text="Модули"
+            android:text="@string/modules_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button2"
-            android:background="@android:color/transparent" />
+            android:background="@android:color/transparent"
+            android:onClick="onClickModules" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="190dp"
+        android:layout_height="190dp">
+
+        <ImageButton
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/settings"
+            android:id="@+id/imageButton5"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:paddingTop="9dp"
+            android:paddingBottom="6dp"
+            android:contentDescription="@string/settings_button"
+            android:onClick="onClickSettings" />
+
+        <Button
+            android:text="@string/settings_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:background="@android:color/transparent"
+            android:onClick="onClickSettings"/>
     </LinearLayout>
 </FrameLayout>

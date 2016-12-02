@@ -1,7 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SHMS</string>
+    <string name="app_name"></string>
 
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="settings_button"></string>
+    <string name="modules_button"></string>
+    <string name="site_button"></string>
+    <string name="notifications_button"></string>
+
+    <string name="setting_time"></string>
+    <string name="settings_user"></string>
+    <string name="settings_visual"></string>
+    <string name="settings_controller"></string>
+
+    <string name="notification1"></string>
+    <string name="notification1_msg"></string>
+    <string name="notification2"></string>
+    <string name="notification2_msg"></string>
+
+    <string name="modules_list"></string>
+    <string name="modules_sensors"></string>
+    <string name="modules_security"></string>
+    <string name="modules_media"></string>
 </resources>

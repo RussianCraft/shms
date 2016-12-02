@@ -1,4 +1,4 @@
-package shms.rcs.ru.shms;
+package ru.russiancraft.shms;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("shms.rcs.ru.shms", appContext.getPackageName());
+        assertEquals("ru.russiancraft.shms", appContext.getPackageName());
     }
 }

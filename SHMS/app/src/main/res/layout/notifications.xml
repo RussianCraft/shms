@@ -2,7 +2,63 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <GridView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="390dp"
+        android:layout_height="190dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="210dp"
+        android:background="@android:color/holo_red_dark">
+
+        <TextView
+            android:text="@string/notification2"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.05"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="@string/notification2_msg"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_weight="0.05" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="190dp"
+        android:layout_width="390dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_dark">
+
+        <TextView
+            android:text="@string/notification1"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_weight="0.05"
+            android:textSize="18sp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="381dp" />
+
+        <TextView
+            android:text="@string/notification1_msg"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"
+            android:layout_weight="0.05"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="7dp"
+            android:textSize="14sp"
+            android:layout_marginBottom="7dp" />
+    </LinearLayout>
+
 </FrameLayout>

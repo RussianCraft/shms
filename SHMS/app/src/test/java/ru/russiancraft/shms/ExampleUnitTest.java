@@ -1,4 +1,4 @@
-package shms.rcs.ru.shms;
+package ru.russiancraft.shms;
 
 import org.junit.Test;
 

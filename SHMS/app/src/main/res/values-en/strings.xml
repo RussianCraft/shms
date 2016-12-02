@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart House Managment System</string>
+    <string name="modules_button">Modules</string>
+    <string name="notifications_button">Notifications</string>
+    <string name="setting_time">Time and Date</string>
+    <string name="settings_button">Settings</string>
+    <string name="settings_controller">Controller</string>
+    <string name="settings_user">User data</string>
+    <string name="settings_visual">Appereance</string>
+    <string name="site_button">Web-site</string>
+    <string name="notification1">Temperature and Humidity</string>
+    <string name="notification1_msg">Temperature: 20 C \nHumidity: 30% \nEverything is fine. \n12.11.2016 15:54</string>
+    <string name="notification2">Temperature and Humidity</string>
+    <string name="notification2_msg">Temperature: 12 C \nHumidity: 35% \nTemperature is low, turned on heaters. \n12.11.2016 12:54</string>
+    <string name="modules_list">Groups</string>
+    <string name="modules_media">Media</string>
+    <string name="modules_security">Security</string>
+    <string name="modules_sensors">Sensors</string>
+</resources>
