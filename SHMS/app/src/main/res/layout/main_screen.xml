@@ -18,15 +18,17 @@
             android:id="@+id/imageButton8"
             android:contentDescription="@string/site_button"
             android:background="@android:color/transparent"
-            android:paddingTop="9dp"
-            android:paddingBottom="6dp" />
+            android:onClick="onClickWebsite"
+            android:paddingBottom="6dp"
+            android:paddingTop="9dp" />
 
         <Button
             android:text="@string/site_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button4"
-            android:background="@android:color/transparent" />
+            android:background="@android:color/transparent"
+            android:onClick="onClickWebsite"/>
     </LinearLayout>
 
     <LinearLayout

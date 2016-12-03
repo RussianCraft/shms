@@ -17,4 +17,8 @@
     <string name="modules_media">Медиа</string>
     <string name="modules_security">Безопасность</string>
     <string name="modules_sensors">Датчики</string>
+    <string name="visual_colors">Цвета приложения</string>
+    <string name="visual_lang">Язык</string>
+    <string name="controller_connection">Не подключено</string>
+    <string name="controller_tab"><u>Контроллер</u></string>
 </resources>

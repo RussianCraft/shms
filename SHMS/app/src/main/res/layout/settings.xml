@@ -19,14 +19,16 @@
             android:background="@android:color/transparent"
             android:paddingTop="9dp"
             android:paddingBottom="6dp"
-            app:srcCompat="@mipmap/controller" />
+            app:srcCompat="@mipmap/controller"
+            android:onClick="onClickController"/>
 
         <Button
             android:text="@string/settings_controller"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button4"
-            android:background="@android:color/transparent" />
+            android:background="@android:color/transparent"
+            android:onClick="onClickController"/>
     </LinearLayout>
 
     <LinearLayout
@@ -45,7 +47,9 @@
             android:paddingTop="9dp"
             android:paddingBottom="6dp"
             android:contentDescription="@string/notifications_button"
-            app:srcCompat="@mipmap/visual" />
+            android:onClick="onClickVisual"
+            app:srcCompat="@mipmap/visual"
+            />
 
         <Button
             android:text="@string/settings_visual"

@@ -17,4 +17,8 @@
     <string name="modules_media">Media</string>
     <string name="modules_security">Security</string>
     <string name="modules_sensors">Sensors</string>
+    <string name="visual_colors">Color scheme</string>
+    <string name="visual_lang">Language</string>
+    <string name="controller_connection">Disconnected</string>
+    <string name="controller_tab"><u>Controller</u></string>
 </resources>

@@ -21,4 +21,11 @@
     <string name="modules_sensors"></string>
     <string name="modules_security"></string>
     <string name="modules_media"></string>
+
+    <string name="visual_colors"></string>
+    <string name="visual_lang"></string>
+
+    <string name="controller_tab"></string>
+    <string name="controller_name" translatable="false">Arduino Uno R3</string>
+    <string name="controller_connection"></string>
 </resources>
